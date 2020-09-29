@@ -33,7 +33,7 @@ export const Header = (props) =>{
 					</div>
 
 					<div className="weapon_icon">
-						<div className="header_icons_link" onClick={() => props.newMainDiv("conf")}>
+						<div className="header_icons_link" onClick={() => props.newMainDiv("conf_step1")}>
 							<img className="weapon_img" alt=" " src={weapon_icon}/>
 						</div>
 					</div>

@@ -1,33 +1,3 @@
-.scrollmenu {
-  overflow: auto;
-  white-space: nowrap;
-}
-
-.scrollmenu div {
-  display: inline-block;
-  }
-
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 :root {
     --black: #2b2a2c;
     --gray:  #E7E7E7;
@@ -50,17 +20,18 @@ p {
 
 .header {
 	width: 100%;
-	height: 3.5rem;
+	height: 5rem;
 	background-color: #ffffff;
 	box-shadow: 0 0 20px rgba(0,0,0,0.3);
 	position: fixed;
+	z-index: +2;
 }
 
 .logo {
-	width: 15%;
-	height: 2.5rem;
+	width: 20%;
+	height: 3rem;
 	margin-left: 40%;
-	margin-top: 0.5rem;
+	margin-top: 0.75rem;
 	float: left;
 	position: fixed;
 }
@@ -68,6 +39,11 @@ p {
 .logo_image {
 	width: 100%;
 	margin-top: 0.2rem;
+}
+
+.logo_image:hover {
+	opacity: 35%;
+	transition: 0.5s;
 }
 
 
@@ -81,30 +57,31 @@ p {
 
 .menu_img {
 	margin-top: 1rem;
-	width: 1.5rem;
+	width: 2rem;
 	height: auto;
 	float: left;
 }
 
 .catalog {
 	font-size: 0.9rem;
-	margin-top: 0.9rem;
+	margin-top: 1.1rem;
 	margin-left: 1rem;
 	float: left;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1rem;
+	font-size: 1.3rem;
 	line-height: 19px;
 }
 
 .menu_button {
+	margin-top: 0.5rem;
 	border: none;
   	font-size: 10px;
   	cursor: pointer;
-  	height: 40px;
+  	height: 50px;
   	background: 0 0;
-  	width: 120px;
+  	width: 140px;
   	white-space: nowrap;
   	text-align: left;
   	outline: none;
@@ -140,7 +117,7 @@ p {
 
 .finder_img {
 	display: block;
-	margin: 1rem auto;
+	margin: 1.7rem auto;
 }
 
 .bucket {
@@ -156,7 +133,7 @@ p {
 
 .bucket_img {
 	display: block;
-	margin: 0.5rem auto;
+	margin: 1.2rem auto;
 }
 
 .weapon_icon {
@@ -173,7 +150,7 @@ p {
 
 .weapon_img {
 	display: block;
-	margin: 0.5rem auto;
+	margin: 1.2rem auto;
 }
 
 .bucket:hover {
@@ -194,7 +171,6 @@ p {
 .constructor {
 	width: 100%;
 	height: 50rem;
-	background-color: var(--gray);
 }
 
 .constructor_text {
@@ -212,8 +188,8 @@ p {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 36px;
-	line-height: 68px;
+	font-size: 48px;
+	line-height: 82px;
 	color: #000000;
 }
 
@@ -222,14 +198,14 @@ p {
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 24px;
+	line-height: 36px;
 	color: #000000;
 }
 
 .conf_btn {
-	width: 11.5rem;
-	height: 4rem;
+	width: 14rem;
+	height: 5rem;
 	border: none;
 	cursor: pointer;
 	background-color: var(--green);
@@ -250,15 +226,11 @@ p {
 }
 
 .constructor_photo {
-  width: 71%;
+	width: 71%;
 	float: right;
 	margin-top: 7.8rem;
 	position: absolute;
 	margin-left: 17%;
-}
-
-.constructor_photo_img{
-  width: 100%;
 }
 
 .smoke {

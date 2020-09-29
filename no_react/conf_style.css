@@ -181,6 +181,7 @@ p {
 	margin-bottom: 5px;
 	width: 90%;
 	height: 80px;
+	background-color: white;
 	border: 2px solid #e1e1e1;
 }
 
@@ -188,7 +189,7 @@ p {
 	margin: 5px auto;
 	width: 90%;
 	height: 80px;
-
+	background-color: var(--green);
 	border: 2px solid #e1e1e1;
 }
 
@@ -197,15 +198,8 @@ p {
 	margin-top: 5px;
 	width: 90%;
 	height: 80px;
+	background-color: white;
 	border: 2px solid #e1e1e1;
-}
-
-.step_used{
-  background-color: var(--green);
-}
-
-.step_unused{
-  background-color: white;
 }
 
 .steps_img {
@@ -229,14 +223,12 @@ p {
 
 .constructor {
 	width: 100%;
-  background-color: none;
-	height: 50rem
+	height: 50rem;
 }
 
 .container{
 	width: 88%;
 	margin:0 auto;
-  background-color: none;
 }
 
 .name {
@@ -282,14 +274,36 @@ p {
 	height: 200px;
 }
 
-.carusel_block {
+.carusel_block1 {
 	border: 2px solid #e1e1e1;
+	float: left;
 	background-color: white;
-	height: 95%;
-	width: 32%;
+	height: 100%;
+	width: 29%;
 	border-radius: 5px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  margin-right: 1%;
+}
+
+.carusel_block2 {
+	border: 2px solid #e1e1e1;
+	float: left;
+	margin-left: 5%;
+	background-color: white;
+	height: 100%;
+	width: 30%;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.carusel_block3 {
+	border: 2px solid #e1e1e1;
+	float: left;
+	margin-left: 5%;
+	background-color: white;
+	height: 100%;
+	width: 30%;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
 .base {
@@ -372,6 +386,13 @@ p {
 	margin-top: 12px;
 }
 
+.gasblock3_img {
+	position: absolute;
+	z-index: 3;
+	margin-left: 740px;
+	margin-top: 12px;
+}
+
 .cevie_img1 {
 	position: absolute;
 	z-index: 4;
@@ -418,14 +439,14 @@ p {
 	margin-top: 102px;
 }
 
-.grip3_img {
+.grip2_img {
 	position: absolute;
 	z-index: 10;
 	margin-left: 177px;
 	margin-top: 77px;
 }
 
-.grip2_img {
+.grip3_img {
 	position: absolute;
 	z-index: 10;
 	margin-left: 207px;
@@ -472,53 +493,4 @@ p {
 	z-index: 10;
 	margin-left: 300px;
 	margin-top: -80px;
-}
-
-.img_block {
-  height: 70%;
-  margin: 0 auto;
-}
-
-.img_preview {
-  display: block;
-  height: 70%;
-  margin: 0 auto;
-  margin-top: -10px;
-  position: relative;
-}
-
-.name_preview{
-  float: left;
-  font-family: Roboto;
-  font-size: 1.5rem;
-  font-style: normal;
-	font-weight: normal;
-  position: relative;
-  display: inline-block;
-  margin-top: 10px;
-}
-
-.cost_preview {
-  float: right;
-  font-family: Roboto;
-  font-size: 1.5rem;
-  font-style: normal;
-	font-weight: normal;
-  position: relative;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.weapon_block {
-	width: 30%;
-	height: 150px;
-	background-color: white;
-	border: 2px solid #e1e1e1;
-	border-radius: 5px;
-	margin-bottom: 3.5rem;
-}
-
-.weapon_block:hover {
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
-  cursor: pointer;
 }
