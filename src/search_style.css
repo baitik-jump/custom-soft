@@ -209,11 +209,11 @@ h3 {
 	border: 2px solid #e1e1e1;
 }
 
-.step_used {
+.step_used{
   background-color: var(--green);
 }
 
-.step_unused {
+.step_unused{
   background-color: white;
 }
 

@@ -209,39 +209,20 @@ h3 {
 	border: 2px solid #e1e1e1;
 }
 
-.step_used {
-  background-color: var(--green);
-}
-
-.step_unused {
-  background-color: white;
-}
-
 .steps_img {
 	display: block;
 	margin: auto;
 	margin-top: 30%;
 }
 
+.step1_img {
+	margin-top: 20%;
+}
+
 .step3_img {
-	width: 50%;
-}
-
-.container{
-	width: 88%;
-	margin:0 auto;
-}
-
-.smoke {
-	position: fixed;
-	z-index: -1;
-}
-
-.smoke_im {
-	z-index: -2;
-	width: 1920px;
-	margin-top: -900px;
-	margin-left: -125px;
+	width: 55%;
+	margin: auto;
+	margin-top: 20%;
 }
 
 .container{
@@ -271,97 +252,40 @@ h3 {
 	display: inline-block;
 }
 
-.details {
+.weapons {
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.detail_block {
-	width: 20%;
-	height: 200px;
+.img_preview {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.name_preview{
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+	font-weight: normal;
+  position: relative;
+  display: inline-block;
+  margin-left: 35px;
+  margin-top: -15px;
+}
+
+.weapon_block {
+	width: 30%;
+	height: 150px;
 	background-color: white;
 	border: 2px solid #e1e1e1;
 	border-radius: 5px;
 	margin-bottom: 3.5rem;
 }
 
-.detail_block:hover {
-	cursor: pointer;
-	box-shadow: 0 0 20px rgba(0,0,0,0.4);
-}
-
-.footer {
-	box-shadow: 0 0 20px rgba(0,0,0,0.3);
-	position: fixed;
-	margin-top: 180px;
-	background-color: white;
-	width: 100%;
-	height: 100px;
-}
-
-.cost_text {
-	float: left;
-	margin-left: 6%;
-	margin-top: -10px;
-}
-
-.buy_btn {
-	margin-right: 6%;
-	float: right;
-	background-color: var(--green);
-	width: 12%;
-	height: 70%;
-	margin-top: 15px;
-}
-
-.buy_btn:hover {
-	background-color: var(--dark_green);
-	transition: 0.5s;
-	cursor: pointer;
-}
-
-.buy_text {
-	display: block;
-	margin: 12px 23%;
-	color: white;
-}
-
-.search {
-	display: inline-block;
-	position: relative;
-	width: 15%;
-	height: 25px;
-	margin-top: 85px;
-	margin-right: 5%;
-	float: right;
-}
-
-.search_btn {
-	background-color: var(--green);
-	border: none;
-	border-radius: 2px;
-	color: white;
-	font-family: roboto;
-}
-
-.search_btn:hover {
-	cursor: pointer;
-	box-shadow: 0 0 20px rgba(0,0,0,0.4);
-	background-color: var(--dark_green);
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: bold;
-	border: none;
-	transition: 0.5s;
-}
-
-.detail_text {
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 1rem;
-
-	margin-top: 170px;
-	margin-left: 15px;
+.weapon_block:hover {
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  cursor: pointer;
 }

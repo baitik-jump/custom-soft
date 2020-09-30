@@ -7,7 +7,6 @@ export const Bucket = (props) =>{
   return(
     <div>
       <Sidebar state={props.state} newMainDiv={props.newMainDiv}/>
-
       <FooterBucket state={props.state}/>
     </div>
   );
